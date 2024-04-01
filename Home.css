@@ -1,0 +1,153 @@
+/* تنسيق الهيدر */
+header {
+margin-top: auto;
+  }
+  /*صورة العامة والنص*/
+  header li a {
+    text-decoration: none;
+    color: #0e0d0d;
+    font-size: 17px;
+  }
+  header ul {
+    list-style-type: none;
+    margin: 20px 0 0 0; /* تم تغيير هنا لإضافة هامش علوي إضافي بقيمة 20 بكسل */
+    padding: 0;
+    float: right; /* تمت إضافة هذا السطر لتحقيق توجيه العناصر نحو اليمين */
+    }
+  
+  header img {
+    width: 300px;
+    height: auto;
+    float: left;
+  }
+  
+  
+  /* تنسيق العنصر الرئيسي */
+  .container {
+    position: relative;
+  }
+  
+  .container .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+  }
+  
+  .container h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  
+  /* تنسيق النصوص العامة الاقسام*/
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 170px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  /* تنسيق القائمة */
+  .container {
+    text-align: center;
+  }
+  
+  .container h2 {
+    margin-bottom: 20px;
+  }
+  
+  ul.menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul.menu li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .box {
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    overflow: hidden;
+  }
+  
+  .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  .container img {
+    width: 100%;
+    height: auto;
+  }/*تنسيق اضافي للصورة SmartBiz*/
+  .box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .box:hover img {
+    transform: scale(1.1);
+  }
+  
+  .box:hover .overlay {
+    opacity: 1;
+  }
+  
+  .box span {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    
+  }
+  
+  /*تنسيق لماذا نحن */
+  .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+  
+ 
+  
+  /* تنسيق التذييل */
+  footer {
+    background-color:rgb(36, 35, 35);
+    padding: 40px;
+    text-align: center;
+  }
+  
+  footer img {
+    width: 150px;
+    height: auto;
+    float: left;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    font-size: 14px;
+  }

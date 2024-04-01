@@ -1,0 +1,169 @@
+/* تنسيق الهيدر */
+header {
+    margin-top: auto;
+      }
+      /*صورة العامة والنص*/
+      header li a {
+        text-decoration: none;
+        color: #0e0d0d;
+        font-size: 17px;
+      }
+      header ul {
+        list-style-type: none;
+        margin: 20px 0 0 0; /* تم تغيير هنا لإضافة هامش علوي إضافي بقيمة 20 بكسل */
+        padding: 0;
+        float: right; /* تمت إضافة هذا السطر لتحقيق توجيه العناصر نحو اليمين */
+        }
+      
+      header img {
+        width: 300px;
+        height: auto;
+        float: left;
+      }
+      
+      .container img {
+        width: 100%;
+        height: auto;
+      }
+      /* تنسيق العنصر الرئيسي */
+      .container {
+        position: relative;
+      }
+      
+      .container .text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+      }
+      
+      .container h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      
+      /*تنسيق الجدول الاول*/
+      #table-container {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f5f5f5;
+      }
+      
+      #my-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      #my-table th,
+      #my-table td {
+        padding: 8px;
+        text-align: center;
+        border: 1px solid #ddd;
+      }
+      
+      #my-table th {
+        background-color: #f9f9f9;
+      }
+      
+      #add-row-btn {
+        margin-top: 10px;
+        padding: 8px 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      
+      #add-row-btn:hover {
+        background-color: #45a049;
+      }
+     /*تنسيق الخزينة*/
+     .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f5f5f5;
+      }
+      
+      .container h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .container p {
+        font-size: 16px;
+      }
+      
+      #balance-amount {
+        font-weight: bold;
+      }
+      
+      #add-income-btn,
+      #add-expense-btn {
+        margin-top: 10px;
+        padding: 8px 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      
+      #add-income-btn:hover,
+      #add-expense-btn:hover {
+        background-color: #45a049;
+      }
+      
+      #transactions-list {
+        margin-top: 20px;
+      }
+      /*جدول الارباح والخسائر*/
+      .u-align-center {
+        text-align: center;
+      }
+      
+      section.u-align-center h2 {
+        font-size: 24px;
+      }
+      
+      section.u-align-center table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      section.u-align-center th,
+      section.u-align-center td {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      section.u-align-center th {
+        background-color: #f9f9f9;
+      }
+      
+      section.u-align-center td:first-child {
+        text-align: left;
+      }
+      /* تنسيق التذييل */
+      footer {
+        background-color:rgb(36, 35, 35);
+        padding: 40px;
+        text-align: center;
+      }
+      
+      footer img {
+        width: 150px;
+        height: auto;
+        float: left;
+      }
+      
+      footer p {
+        margin-top: 10px;
+        font-size: 14px;
+      }
